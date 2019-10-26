@@ -5,12 +5,12 @@ const cors = require("cors");
 const app = express();
 const ytdl = require("ytdl-core");
 const port = process.env.PORT || 5000;
-const fs = require("fs");
-const ffmpegPath = require("@ffmpeg-installer/ffmpeg").path;
-const ffmpeg = require("fluent-ffmpeg");
-ffmpeg.setFfmpegPath(ffmpegPath);
+
+// const ffmpegPath = require("@ffmpeg-installer/ffmpeg").path;
+// const ffmpeg = require("fluent-ffmpeg");
+// ffmpeg.setFfmpegPath(ffmpegPath);
 //const ffmpeg = require("fluent-ffmpeg");
-const path = require("path");
+
 const readline = require("readline");
 app.use(cors());
 
